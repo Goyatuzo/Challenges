@@ -18,6 +18,8 @@ def fib(n):
     return fibonacci
 
 def solve(n):
+    """Use this function to find the sum of the even valued fibonacci numbers.
+    :param n: The largest fibnonacci number cannot exceed n."""
     sequence = fib(n)
 
     return sum([i for i in sequence if i % 2 == 0])
