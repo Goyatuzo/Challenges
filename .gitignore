@@ -61,5 +61,9 @@ target/
 #Ipython Notebook
 .ipynb_checkpoints
 
-# Ma
+# Mac
 .DS_Store
+
+# C++
+*.o
+
