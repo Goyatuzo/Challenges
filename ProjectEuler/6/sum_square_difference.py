@@ -1,6 +1,14 @@
 import operator
 
 def difference(n):
+    """This problem was optimized for the HackerRank interface. Since there will
+    be multiple values being passed in, rather than computing the differences for
+    each and every value, it would be more efficient to compute the difference for
+    the largest value, then store all intermediate entries in an array and reference
+    them when returning the final value. This takes up unnecessary space, but is easy
+    to implement. The more space efficient version would only append to the output list
+    when the i-th iteration is a value in the input n.
+    :param n: The list of numbers to evaluate the sum square difference."""
     differences = []
 
     # Map all values of n to int.
