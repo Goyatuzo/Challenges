@@ -2,7 +2,7 @@ import unittest
 
 from character import *
 
-class TestSummationOfPrimes(unittest.TestCase):
+class TestFirstNonRepeatingCharacter(unittest.TestCase):
     def test_edge(self):
         self.assertEqual(None, first_non_repeating('ttyy'))
 
