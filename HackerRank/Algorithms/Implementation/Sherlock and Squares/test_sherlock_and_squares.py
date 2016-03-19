@@ -2,7 +2,7 @@ import unittest
 
 from sherlock_and_squares import *
 
-class TestMultiplesOfANumber(unittest.TestCase):
+class TestSherlockAndSquares(unittest.TestCase):
     def test_given(self):
         self.assertEqual(2, between_squares('3 9'))
         self.assertEqual(0, between_squares('17 24'))
