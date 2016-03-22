@@ -1,0 +1,4 @@
+SELECT      NAME
+FROM        STUDENTS
+WHERE       STUDENTS.Marks > 75
+ORDER BY    SUBSTR(NAME, -3, 3), ID;
