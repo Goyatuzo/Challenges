@@ -21,7 +21,7 @@
     <OutputPath>.</OutputPath>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
-    <ProjectView>ShowAllFiles</ProjectView>
+    <ProjectView>ProjectFiles</ProjectView>
     <TypeScriptSourceMap>true</TypeScriptSourceMap>
     <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
     <EnableTypeScript>true</EnableTypeScript>
@@ -29,6 +29,17 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptRemoveComments>True</TypeScriptRemoveComments>
+    <TypeScriptOutFile />
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="HackerRank\Algorithm\" />
+    <Folder Include="HackerRank\Algorithm\Warmup\" />
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
     <Folder Include="typings\globals\jest\" />
@@ -50,13 +62,18 @@
     <Folder Include="__test__\HackerRank\" />
     <Folder Include="__test__\HackerRank\Algorithm\" />
     <Folder Include="HackerRank\" />
+    <Folder Include="__test__\HackerRank\Algorithm\Warmup\" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="HackerRank\Algorithm\solve-me-first.ts" />
+    <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\compare-the-triplets.ts" />
+    <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\simple-array-sum.ts" />
+    <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\solve-me-first.ts" />
     <TypeScriptCompile Include="typings\globals\jest\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\node-4\index.d.ts" />
     <TypeScriptCompile Include="typings\index.d.ts" />
-    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\solve-me-first.test.ts">
+    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Warmup\compare-the-triplets.test.ts" />
+    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Warmup\simple-array-sum.test.ts" />
+    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Warmup\solve-me-first.test.ts">
       <SubType>Code</SubType>
       <TestFramework>ExportRunner</TestFramework>
     </TypeScriptCompile>

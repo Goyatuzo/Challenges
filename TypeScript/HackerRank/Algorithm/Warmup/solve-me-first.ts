@@ -20,7 +20,7 @@ function readLine() {
 
 /////////////// ignore above this line ////////////////////
 
-export function solveMeFirst(a: number, b: number): number {
+export default function solveMeFirst(a: number, b: number): number {
     return a + b;
 }
 

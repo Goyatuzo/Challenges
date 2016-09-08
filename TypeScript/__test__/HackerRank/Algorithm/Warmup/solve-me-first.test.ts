@@ -1,4 +1,4 @@
-﻿import {solveMeFirst} from '../../../HackerRank/Algorithm/solve-me-first';
+﻿import solveMeFirst from '../../../../HackerRank/Algorithm/Warmup/solve-me-first';
 
 describe('SolveMeFirst', () => {
     it('1 + 2 should be 3', () => {

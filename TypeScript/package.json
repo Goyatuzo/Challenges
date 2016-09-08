@@ -13,6 +13,7 @@
     "typescript": "^1.8.10"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
     "jest": "^15.1.1"
   }
 }
