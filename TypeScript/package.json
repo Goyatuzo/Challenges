@@ -1,0 +1,18 @@
+{
+  "name": "challenges",
+  "version": "0.0.0",
+  "description": "Programming challenges done in TypeScript.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": {
+    "name": "Yuto"
+  },
+  "dependencies": {
+    "typescript": "^1.8.10"
+  },
+  "devDependencies": {
+    "jest": "^15.1.1"
+  }
+}
