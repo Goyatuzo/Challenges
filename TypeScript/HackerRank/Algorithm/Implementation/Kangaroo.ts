@@ -37,8 +37,8 @@ export default function willLandOnSameLocation(one: Kangaroo, two: Kangaroo): st
     // Equation is x1 + v1 * t = x2 + v2 * t
     // t = (x2 - x1) / (v1 - v2)
     const t = (two.x - one.x) / (one.v - two.v);
-    
-    if (t > 0) {
+
+    if (t > 0 && t % 1 === 0) {
         return "YES";
     }
     return "NO";

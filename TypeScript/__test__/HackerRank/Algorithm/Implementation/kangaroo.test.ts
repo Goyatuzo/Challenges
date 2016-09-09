@@ -86,4 +86,21 @@ describe('Kangaroo', () => {
             expect(willLandOnSameLocation(one, two)).toBe("NO");
         });
     });
+
+    describe('Kangaroo 1: x = 23, v = 9867', () => {
+        beforeEach(() => {
+            one = {
+                x: 23,
+                v: 9867
+            };
+        });
+
+        it('Kangaroo 2: x = 9814, v = 5861', () => {
+            let two: Kangaroo = {
+                x: 9814,
+                v: 5861
+            };
+            expect(willLandOnSameLocation(one, two)).toBe("NO");
+        });
+    });
 });
