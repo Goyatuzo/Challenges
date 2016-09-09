@@ -65,12 +65,17 @@
     <Folder Include="__test__\HackerRank\Algorithm\Warmup\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\circular-array-rotation.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\compare-the-triplets.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\simple-array-sum.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\solve-me-first.ts" />
     <TypeScriptCompile Include="typings\globals\jest\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\node-4\index.d.ts" />
     <TypeScriptCompile Include="typings\index.d.ts" />
+    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Warmup\circular-array-rotation.test.ts">
+      <SubType>Code</SubType>
+      <TestFramework>Mocha</TestFramework>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Warmup\compare-the-triplets.test.ts" />
     <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Warmup\simple-array-sum.test.ts" />
     <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Warmup\solve-me-first.test.ts">
