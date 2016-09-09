@@ -55,6 +55,7 @@
     <Folder Include="HackerRank\Algorithm\" />
     <Folder Include="HackerRank\Algorithm\Implementation\" />
     <Folder Include="HackerRank\Algorithm\Warmup\" />
+    <Folder Include="HackerRank\Algorithm\Strings\" />
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
     <Folder Include="typings\globals\jest\" />
@@ -64,12 +65,13 @@
     <Folder Include="__test__\HackerRank\Algorithm\" />
     <Folder Include="HackerRank\" />
     <Folder Include="__test__\HackerRank\Algorithm\Implementation\" />
+    <Folder Include="__test__\HackerRank\Algorithm\Strings\" />
     <Folder Include="__test__\HackerRank\Algorithm\Warmup\" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\camelcase.ts" />
+    <TypeScriptCompile Include="HackerRank\Algorithm\Strings\camelcase.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\kangaroo.ts" />
-    <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\super-reduced-string.ts" />
+    <TypeScriptCompile Include="HackerRank\Algorithm\Strings\super-reduced-string.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\circular-array-rotation.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\compare-the-triplets.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\simple-array-sum.ts" />
@@ -77,7 +79,7 @@
     <TypeScriptCompile Include="typings\globals\jest\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\node-4\index.d.ts" />
     <TypeScriptCompile Include="typings\index.d.ts" />
-    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Implementation\camelcase.test.ts">
+    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Strings\camelcase.test.ts">
       <SubType>Code</SubType>
       <TestFramework>ExportRunner</TestFramework>
     </TypeScriptCompile>
@@ -85,7 +87,7 @@
       <SubType>Code</SubType>
       <TestFramework>ExportRunner</TestFramework>
     </TypeScriptCompile>
-    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Implementation\super-reduced-string.test.ts">
+    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Strings\super-reduced-string.test.ts">
       <SubType>Code</SubType>
       <TestFramework>ExportRunner</TestFramework>
     </TypeScriptCompile>

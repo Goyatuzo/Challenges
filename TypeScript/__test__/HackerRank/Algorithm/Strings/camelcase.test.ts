@@ -1,4 +1,4 @@
-﻿import camelCaseWordCount from '../../../../HackerRank/Algorithm/Implementation/camelcase';
+﻿import camelCaseWordCount from '../../../../HackerRank/Algorithm/Strings/camelcase';
 
 describe('CamelCase', () => {
     it('thisIsATest should be 4', () => {

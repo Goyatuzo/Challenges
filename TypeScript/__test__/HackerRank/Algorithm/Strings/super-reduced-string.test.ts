@@ -1,4 +1,4 @@
-﻿import removeDuplicate from '../../../../HackerRank/Algorithm/Implementation/super-reduced-string';
+﻿import removeDuplicate from '../../../../HackerRank/Algorithm/Strings/super-reduced-string';
 
 describe('SuperReducedString', () => {
     it('aaabccddd should be abd', () => {
