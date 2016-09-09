@@ -21,7 +21,7 @@
     <OutputPath>.</OutputPath>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
-    <ProjectView>ShowAllFiles</ProjectView>
+    <ProjectView>ProjectFiles</ProjectView>
     <TypeScriptSourceMap>true</TypeScriptSourceMap>
     <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
     <EnableTypeScript>true</EnableTypeScript>
@@ -69,6 +69,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\camelcase.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\kangaroo.ts" />
+    <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\super-reduced-string.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\circular-array-rotation.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\compare-the-triplets.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\simple-array-sum.ts" />
@@ -81,6 +82,10 @@
       <TestFramework>ExportRunner</TestFramework>
     </TypeScriptCompile>
     <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Implementation\kangaroo.test.ts">
+      <SubType>Code</SubType>
+      <TestFramework>ExportRunner</TestFramework>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Implementation\super-reduced-string.test.ts">
       <SubType>Code</SubType>
       <TestFramework>ExportRunner</TestFramework>
     </TypeScriptCompile>
