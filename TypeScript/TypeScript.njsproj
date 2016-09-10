@@ -56,6 +56,8 @@
     <Folder Include="HackerRank\Algorithm\Implementation\" />
     <Folder Include="HackerRank\Algorithm\Warmup\" />
     <Folder Include="HackerRank\Algorithm\Strings\" />
+    <Folder Include="HackerRank\Regex\" />
+    <Folder Include="HackerRank\Regex\Introduction\" />
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
     <Folder Include="typings\globals\jest\" />
@@ -65,8 +67,10 @@
     <Folder Include="__test__\HackerRank\Algorithm\" />
     <Folder Include="HackerRank\" />
     <Folder Include="__test__\HackerRank\Algorithm\Implementation\" />
+    <Folder Include="__test__\HackerRank\Regex\" />
     <Folder Include="__test__\HackerRank\Algorithm\Strings\" />
     <Folder Include="__test__\HackerRank\Algorithm\Warmup\" />
+    <Folder Include="__test__\HackerRank\Regex\Introduction\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\divisible-sum-pairs.ts" />
@@ -78,6 +82,7 @@
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\compare-the-triplets.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\simple-array-sum.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\solve-me-first.ts" />
+    <TypeScriptCompile Include="HackerRank\Regex\Introduction\matching-specific-string.ts" />
     <TypeScriptCompile Include="typings\globals\jest\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\node-4\index.d.ts" />
     <TypeScriptCompile Include="typings\index.d.ts" />
@@ -111,6 +116,7 @@
       <SubType>Code</SubType>
       <TestFramework>ExportRunner</TestFramework>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="__test__\HackerRank\Regex\Introduction\match-specific-string.test.ts" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
