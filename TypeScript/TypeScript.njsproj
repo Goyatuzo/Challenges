@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\divisible-sum-pairs.ts" />
+    <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\jumping-on-clouds.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Strings\camelcase.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\kangaroo.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Strings\super-reduced-string.ts" />
@@ -81,6 +82,10 @@
     <TypeScriptCompile Include="typings\globals\node-4\index.d.ts" />
     <TypeScriptCompile Include="typings\index.d.ts" />
     <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Implementation\divisible-sum-pairs.test.ts">
+      <SubType>Code</SubType>
+      <TestFramework>ExportRunner</TestFramework>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Implementation\jumping-on-clouds.test.ts">
       <SubType>Code</SubType>
       <TestFramework>ExportRunner</TestFramework>
     </TypeScriptCompile>
