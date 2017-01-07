@@ -4,16 +4,19 @@
   "description": "Programming challenges done in TypeScript.",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "postinstall": "node ./node_modules/typescript/bin/tsc"
   },
   "author": {
     "name": "Yuto"
   },
   "dependencies": {
-    "typescript": "^1.8.10"
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.36",
+    "@types/node": "^6.0.58",
+    "typescript": "^2.1.4"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "jest": "^15.1.1"
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
