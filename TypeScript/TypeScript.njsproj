@@ -62,6 +62,8 @@
     <Folder Include="test\HackerRank\Algorithm\" />
     <Folder Include="test\HackerRank\" />
     <Folder Include="test\HackerRank\Algorithm\Implementation\" />
+    <Folder Include="test\HackerRank\Algorithm\Warmup\" />
+    <Folder Include="test\HackerRank\Algorithm\Strings\" />
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
     <Folder Include="typings\globals\jest\" />
@@ -79,8 +81,40 @@
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\simple-array-sum.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\solve-me-first.ts" />
     <TypeScriptCompile Include="HackerRank\Regex\Introduction\matching-specific-string.ts" />
-    <TypeScriptCompile Include="test\HackerRank\Algorithm\Implementation\divisible-sum-pairs.test.ts">
-      <TestFramework>mocha</TestFramework>
+    <TypeScriptCompile Include="test\HackerRank\Algorithm\Implementation\divisible-sum-pairs.ts">
+      <TestFramework>Mocha</TestFramework>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="test\HackerRank\Algorithm\Implementation\jumping-on-clouds.ts">
+      <SubType>Code</SubType>
+      <TestFramework>Mocha</TestFramework>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="test\HackerRank\Algorithm\Implementation\kangaroo.ts">
+      <SubType>Code</SubType>
+      <TestFramework>Mocha</TestFramework>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="test\HackerRank\Algorithm\Strings\camelcase.ts">
+      <SubType>Code</SubType>
+      <TestFramework>Mocha</TestFramework>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="test\HackerRank\Algorithm\Strings\super-reduced-string.ts">
+      <SubType>Code</SubType>
+      <TestFramework>Mocha</TestFramework>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="test\HackerRank\Algorithm\Warmup\circular-array-rotation.ts">
+      <SubType>Code</SubType>
+      <TestFramework>Mocha</TestFramework>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="test\HackerRank\Algorithm\Warmup\compare-the-triplets.ts">
+      <SubType>Code</SubType>
+      <TestFramework>Mocha</TestFramework>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="test\HackerRank\Algorithm\Warmup\simple-array-sum.ts">
+      <SubType>Code</SubType>
+      <TestFramework>Mocha</TestFramework>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="test\HackerRank\Algorithm\Warmup\solve-me-first.ts">
+      <SubType>Code</SubType>
+      <TestFramework>Mocha</TestFramework>
     </TypeScriptCompile>
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
