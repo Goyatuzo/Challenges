@@ -73,6 +73,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\divisible-sum-pairs.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\jumping-on-clouds.ts" />
+    <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\sock-merchant.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Strings\camelcase.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\kangaroo.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Strings\mars-exploration.ts" />
@@ -90,6 +91,10 @@
       <TestFramework>Mocha</TestFramework>
     </TypeScriptCompile>
     <TypeScriptCompile Include="test\HackerRank\Algorithm\Implementation\kangaroo.ts">
+      <SubType>Code</SubType>
+      <TestFramework>Mocha</TestFramework>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="test\HackerRank\Algorithm\Implementation\sock-merchant.ts">
       <SubType>Code</SubType>
       <TestFramework>Mocha</TestFramework>
     </TypeScriptCompile>
