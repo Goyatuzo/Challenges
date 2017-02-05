@@ -47,7 +47,7 @@
   <ItemGroup>
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="typings.json" />
+    <Content Include="tsconfig.json" />
     <Content Include="typings\globals\jest\typings.json" />
     <Content Include="typings\globals\node-4\typings.json" />
   </ItemGroup>
@@ -56,21 +56,17 @@
     <Folder Include="HackerRank\Algorithm\Implementation\" />
     <Folder Include="HackerRank\Algorithm\Warmup\" />
     <Folder Include="HackerRank\Algorithm\Strings\" />
+    <Folder Include="test\" />
     <Folder Include="HackerRank\Regex\" />
     <Folder Include="HackerRank\Regex\Introduction\" />
+    <Folder Include="test\HackerRank\Algorithm\" />
+    <Folder Include="test\HackerRank\" />
+    <Folder Include="test\HackerRank\Algorithm\Implementation\" />
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
     <Folder Include="typings\globals\jest\" />
     <Folder Include="typings\globals\node-4\" />
-    <Folder Include="__test__\" />
-    <Folder Include="__test__\HackerRank\" />
-    <Folder Include="__test__\HackerRank\Algorithm\" />
     <Folder Include="HackerRank\" />
-    <Folder Include="__test__\HackerRank\Algorithm\Implementation\" />
-    <Folder Include="__test__\HackerRank\Regex\" />
-    <Folder Include="__test__\HackerRank\Algorithm\Strings\" />
-    <Folder Include="__test__\HackerRank\Algorithm\Warmup\" />
-    <Folder Include="__test__\HackerRank\Regex\Introduction\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\divisible-sum-pairs.ts" />
@@ -83,40 +79,9 @@
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\simple-array-sum.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\solve-me-first.ts" />
     <TypeScriptCompile Include="HackerRank\Regex\Introduction\matching-specific-string.ts" />
-    <TypeScriptCompile Include="typings\globals\jest\index.d.ts" />
-    <TypeScriptCompile Include="typings\globals\node-4\index.d.ts" />
-    <TypeScriptCompile Include="typings\index.d.ts" />
-    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Implementation\divisible-sum-pairs.test.ts">
-      <SubType>Code</SubType>
-      <TestFramework>ExportRunner</TestFramework>
+    <TypeScriptCompile Include="test\HackerRank\Algorithm\Implementation\divisible-sum-pairs.test.ts">
+      <TestFramework>mocha</TestFramework>
     </TypeScriptCompile>
-    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Implementation\jumping-on-clouds.test.ts">
-      <SubType>Code</SubType>
-      <TestFramework>ExportRunner</TestFramework>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Strings\camelcase.test.ts">
-      <SubType>Code</SubType>
-      <TestFramework>ExportRunner</TestFramework>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Implementation\kangaroo.test.ts">
-      <SubType>Code</SubType>
-      <TestFramework>ExportRunner</TestFramework>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Strings\super-reduced-string.test.ts">
-      <SubType>Code</SubType>
-      <TestFramework>ExportRunner</TestFramework>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Warmup\circular-array-rotation.test.ts">
-      <SubType>Code</SubType>
-      <TestFramework>Mocha</TestFramework>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Warmup\compare-the-triplets.test.ts" />
-    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Warmup\simple-array-sum.test.ts" />
-    <TypeScriptCompile Include="__test__\HackerRank\Algorithm\Warmup\solve-me-first.test.ts">
-      <SubType>Code</SubType>
-      <TestFramework>ExportRunner</TestFramework>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="__test__\HackerRank\Regex\Introduction\match-specific-string.test.ts" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
