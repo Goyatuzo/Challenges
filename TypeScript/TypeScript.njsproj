@@ -21,7 +21,7 @@
     <OutputPath>.</OutputPath>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
-    <ProjectView>ShowAllFiles</ProjectView>
+    <ProjectView>ProjectFiles</ProjectView>
     <TypeScriptSourceMap>true</TypeScriptSourceMap>
     <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
     <EnableTypeScript>true</EnableTypeScript>
@@ -73,6 +73,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\divisible-sum-pairs.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\jumping-on-clouds.ts" />
+    <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\min-max-sum.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\sock-merchant.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Strings\camelcase.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\kangaroo.ts" />
@@ -91,6 +92,10 @@
       <TestFramework>Mocha</TestFramework>
     </TypeScriptCompile>
     <TypeScriptCompile Include="test\HackerRank\Algorithm\Implementation\kangaroo.ts">
+      <SubType>Code</SubType>
+      <TestFramework>Mocha</TestFramework>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="test\HackerRank\Algorithm\Implementation\min-max-sum.ts">
       <SubType>Code</SubType>
       <TestFramework>Mocha</TestFramework>
     </TypeScriptCompile>
