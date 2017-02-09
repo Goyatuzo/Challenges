@@ -71,6 +71,7 @@
     <Folder Include="HackerRank\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\bon-appetit.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\divisible-sum-pairs.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\equalize-the-array.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Implementation\jumping-on-clouds.ts" />
@@ -85,6 +86,10 @@
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\simple-array-sum.ts" />
     <TypeScriptCompile Include="HackerRank\Algorithm\Warmup\solve-me-first.ts" />
     <TypeScriptCompile Include="HackerRank\Regex\Introduction\matching-specific-string.ts" />
+    <TypeScriptCompile Include="test\HackerRank\Algorithm\Implementation\bon-appetit.ts">
+      <SubType>Code</SubType>
+      <TestFramework>Mocha</TestFramework>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="test\HackerRank\Algorithm\Implementation\divisible-sum-pairs.ts">
       <TestFramework>Mocha</TestFramework>
     </TypeScriptCompile>
