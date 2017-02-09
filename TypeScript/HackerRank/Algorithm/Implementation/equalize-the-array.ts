@@ -30,17 +30,12 @@ export default function equalizeArray(values: Array<number>): number {
         }
     });
 
-    let min = Number.MAX_SAFE_INTEGER;
+    let max = Number.MIN_SAFE_INTEGER;
     Object.keys(count).forEach(key => {
-        min = Math.min(count[key], min);
+        max = Math.max(count[key], max);
     });
 
-    let sum = 0;
-    Object.keys(count).forEach(key => {
-        sum += count[key] - min;
-    });
-
-    return sum;
+    return values.length - max;
 }
 
 
