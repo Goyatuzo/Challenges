@@ -5,6 +5,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Name>TypeScript</Name>
     <RootNamespace>TypeScript</RootNamespace>
+    <ToolsVersionPromptShown>0.0</ToolsVersionPromptShown>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -48,8 +49,6 @@
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Content Include="tsconfig.json" />
-    <Content Include="typings\globals\jest\typings.json" />
-    <Content Include="typings\globals\node-4\typings.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="HackerRank\Algorithm\" />
@@ -64,10 +63,6 @@
     <Folder Include="test\HackerRank\Algorithm\Implementation\" />
     <Folder Include="test\HackerRank\Algorithm\Warmup\" />
     <Folder Include="test\HackerRank\Algorithm\Strings\" />
-    <Folder Include="typings\" />
-    <Folder Include="typings\globals\" />
-    <Folder Include="typings\globals\jest\" />
-    <Folder Include="typings\globals\node-4\" />
     <Folder Include="HackerRank\" />
   </ItemGroup>
   <ItemGroup>

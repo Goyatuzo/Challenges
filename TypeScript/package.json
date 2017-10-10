@@ -4,19 +4,19 @@
   "description": "Programming challenges done in TypeScript.",
   "main": "app.js",
   "scripts": {
-    "postinstall": "node ./node_modules/typescript/bin/tsc"
+    "pretest": "tsc",
+    "test": "mocha --recursive"
   },
   "author": {
     "name": "Yuto"
   },
   "dependencies": {
-    "@types/chai": "^3.4.34",
-    "@types/mocha": "^2.2.36",
-    "@types/node": "^6.0.62",
-    "typescript": "^2.1.4"
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.43",
+    "typescript": "^2.5.3"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
   }
 }
