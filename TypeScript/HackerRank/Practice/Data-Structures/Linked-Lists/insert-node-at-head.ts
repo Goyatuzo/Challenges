@@ -39,7 +39,7 @@ export function insertNodeAtHead(head: SinglyLinkedListNode, data: number) {
     return newNode;
 }
 
-class SinglyLinkedListNode {
+export class SinglyLinkedListNode {
     public data: number;
     public next: SinglyLinkedListNode;
 
@@ -49,7 +49,7 @@ class SinglyLinkedListNode {
     }
 };
 
-class SinglyLinkedList {
+export class SinglyLinkedList {
     public head: SinglyLinkedListNode;
     public tail: SinglyLinkedListNode;
 
