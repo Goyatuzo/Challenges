@@ -4,7 +4,7 @@
   "description": "Programming challenges done in TypeScript.",
   "main": "app.js",
   "scripts": {
-    "test": "mocha -r ts-node/register **/test/**.test.ts"
+    "test": "mocha -r ts-node/register **/tests/**.test.ts"
   },
   "author": {
     "name": "Yuto"
