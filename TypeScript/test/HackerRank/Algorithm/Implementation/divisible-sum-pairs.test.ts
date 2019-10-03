@@ -1,6 +1,6 @@
 ﻿import { expect } from 'chai';
 
-import divisibleSumPairs from '../../../../HackerRank/Algorithm/Implementation/divisible-sum-pairs';
+import divisibleSumPairs from '../../../../../HackerRank/Algorithms/Implementation/Divisible Sum Pairs/divisible-sum-pairs';
 
 
 describe('DivisibleSumPairs', () => {

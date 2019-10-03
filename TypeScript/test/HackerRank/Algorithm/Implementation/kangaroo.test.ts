@@ -1,6 +1,6 @@
 ﻿import { expect } from 'chai';
 
-import willLandOnSameLocation, { Kangaroo } from '../../../../HackerRank/Algorithm/Implementation/kangaroo';
+import willLandOnSameLocation, { Kangaroo } from '../../../../../HackerRank/Algorithms/Implementation/Kangaroo/Kangaroo';
 
 describe('Kangaroo', () => {
     let one: Kangaroo;

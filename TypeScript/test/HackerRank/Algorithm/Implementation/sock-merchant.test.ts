@@ -1,6 +1,6 @@
 ﻿import { expect } from 'chai';
 
-import getMatchedSockCount, { PairSocks } from '../../../../HackerRank/Algorithm/Implementation/sock-merchant';
+import getMatchedSockCount, { PairSocks } from '../../../../../HackerRank/Algorithms/Implementation/Sock Merchant/sock-merchant';
 
 describe('SockMerchant', () => {
     describe('PairSocks class', () => {
