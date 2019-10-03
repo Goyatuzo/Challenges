@@ -1,6 +1,6 @@
 ﻿import { expect } from 'chai';
 
-import rotateArray from '../../../../HackerRank/Algorithm/Warmup/circular-array-rotation';
+import rotateArray from '../../../../../HackerRank/Algorithms/Warmup/Circular Array Rotation/circular-array-rotation';
 
 describe("CircularArrayRotation", () => {
     describe('Array: [0, 1, 2]', () => {

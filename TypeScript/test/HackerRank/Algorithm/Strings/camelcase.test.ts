@@ -1,6 +1,6 @@
 ﻿import { expect } from 'chai';
 
-import camelCaseWordCount from '../../../../HackerRank/Algorithm/Strings/camelcase';
+import camelCaseWordCount from '../../../../../HackerRank/Algorithms/Strings/Camel Case/camelcase';
 
 describe('CamelCase', () => {
     it('thisIsATest should be 4', () => {

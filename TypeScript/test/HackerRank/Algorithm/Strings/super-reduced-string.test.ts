@@ -1,6 +1,6 @@
 ﻿import { expect } from 'chai';
 
-import removeDuplicate from '../../../../HackerRank/Algorithm/Strings/super-reduced-string';
+import removeDuplicate from '../../../../../HackerRank/Algorithms/Strings/Super Reduced String/super-reduced-string';
 
 describe('SuperReducedString', () => {
     it('aaabccddd should be abd', () => {

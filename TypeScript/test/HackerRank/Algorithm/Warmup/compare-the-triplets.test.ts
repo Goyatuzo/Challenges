@@ -1,6 +1,6 @@
 ﻿import { expect } from 'chai';
 
-import compareTriplets from '../../../../HackerRank/Algorithm/Warmup/compare-the-triplets';
+import compareTriplets from '../../../../../HackerRank/Algorithms/Warmup/Compare the Triplets/compare-the-triplets';
 
 describe('CompareTheTriplets', () => {
     it('0, 0, 0 and 0, 0, 0', () => {

@@ -1,6 +1,6 @@
 ﻿import { expect } from 'chai';
 
-import findNonSosCharacterCount from '../../../../HackerRank/Algorithm/Strings/mars-exploration';
+import findNonSosCharacterCount from '../../../../../HackerRank/Algorithms/Strings/Mars Exploration/mars-exploration';
 
 describe('MarsExploration', () => {
     it("SOS should give 0", () => {

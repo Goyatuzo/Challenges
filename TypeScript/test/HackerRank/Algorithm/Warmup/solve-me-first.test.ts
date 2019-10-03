@@ -1,6 +1,6 @@
 ﻿import { expect } from 'chai';
 
-import solveMeFirst from '../../../../HackerRank/Algorithm/Warmup/solve-me-first';
+import solveMeFirst from '../../../../../HackerRank/Algorithms/Warmup/Solve Me First/solve-me-first';
 
 describe('SolveMeFirst', () => {
     it('1 + 2 should be 3', () => {

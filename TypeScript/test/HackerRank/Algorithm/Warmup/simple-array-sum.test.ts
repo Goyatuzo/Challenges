@@ -1,6 +1,6 @@
 ﻿import { expect } from 'chai';
 
-import sumArray from '../../../../HackerRank/Algorithm/Warmup/simple-array-sum';
+import sumArray from '../../../../../HackerRank/Algorithms/Warmup/Simple Array Sum/simple-array-sum';
 
 describe('SimpleArraySum', () => {
     it(`[0, 1] should be 1`, () => {
