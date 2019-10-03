@@ -1,6 +1,4 @@
-﻿import { expect } from 'chai';
-
-import divisibleSumPairs from '../divisible-sum-pairs';
+﻿import divisibleSumPairs from '../divisible-sum-pairs';
 
 
 describe('DivisibleSumPairs', () => {
@@ -12,7 +10,7 @@ describe('DivisibleSumPairs', () => {
         });
 
         it('k = 3', () => {
-            expect(divisibleSumPairs(array, 3)).to.eql(5);
+            expect(divisibleSumPairs(array, 3)).toEqual(5);
         });
     });
 
@@ -22,7 +20,7 @@ describe('DivisibleSumPairs', () => {
         });
 
         it('k = 1', () => {
-            expect(divisibleSumPairs(array, 1)).to.eql(15);
+            expect(divisibleSumPairs(array, 1)).toEqual(15);
         });
     });
 });

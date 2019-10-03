@@ -1,17 +1,15 @@
-﻿import { expect } from 'chai';
-
-import removeDuplicate from '../super-reduced-string';
+﻿import removeDuplicate from '../super-reduced-string';
 
 describe('SuperReducedString', () => {
     it('aaabccddd should be abd', () => {
-        expect(removeDuplicate('aaabccddd')).to.eql('abd');
+        expect(removeDuplicate('aaabccddd')).toEqual('abd');
     });
 
     it('baab', () => {
-        expect(removeDuplicate('baab')).to.eql('Empty String');
+        expect(removeDuplicate('baab')).toEqual('Empty String');
     });
 
     it('aa', () => {
-        expect(removeDuplicate('aa')).to.eql('Empty String');
+        expect(removeDuplicate('aa')).toEqual('Empty String');
     });
 });

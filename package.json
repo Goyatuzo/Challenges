@@ -4,19 +4,24 @@
   "description": "Programming challenges done in TypeScript.",
   "main": "app.js",
   "scripts": {
-    "test": "mocha -r ts-node/register **/tests/**.test.ts"
+    "test": "jest"
   },
   "author": {
     "name": "Yuto"
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/chai": "4.2.3",
-    "@types/mocha": "5.2.7",
+    "@types/jest": "24.0.18",
     "@types/node": "12.7.11",
-    "chai": "4.2.0",
-    "mocha": "6.2.1",
+    "jest": "24.9.0",
+    "ts-jest": "24.1.0",
     "ts-node": "8.4.1",
     "typescript": "3.6.3"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testMatch": [
+      "**/tests/*.test.ts"
+    ]
   }
 }

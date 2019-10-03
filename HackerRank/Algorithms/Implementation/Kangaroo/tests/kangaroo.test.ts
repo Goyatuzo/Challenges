@@ -1,6 +1,4 @@
-﻿import { expect } from 'chai';
-
-import willLandOnSameLocation, { Kangaroo } from '../Kangaroo';
+﻿import willLandOnSameLocation, { Kangaroo } from '../Kangaroo';
 
 describe('Kangaroo', () => {
     let one: Kangaroo;
@@ -18,7 +16,7 @@ describe('Kangaroo', () => {
                 x: 0,
                 v: 5
             };
-            expect(willLandOnSameLocation(one, two)).to.eql("YES");
+            expect(willLandOnSameLocation(one, two)).toEqual("YES");
         });
 
         it('Kangaroo 2: x = 1, v = 5 should be NO', () => {
@@ -26,7 +24,7 @@ describe('Kangaroo', () => {
                 x: 1,
                 v: 5
             };
-            expect(willLandOnSameLocation(one, two)).to.eql("NO");
+            expect(willLandOnSameLocation(one, two)).toEqual("NO");
         });
     });
 
@@ -43,7 +41,7 @@ describe('Kangaroo', () => {
                 x: 0,
                 v: 1
             };
-            expect(willLandOnSameLocation(one, two)).to.eql("NO");
+            expect(willLandOnSameLocation(one, two)).toEqual("NO");
         });
 
         it('Kangaroo 2: x = 0, v = 10 should be YES', () => {
@@ -51,7 +49,7 @@ describe('Kangaroo', () => {
                 x: 0,
                 v: 10
             };
-            expect(willLandOnSameLocation(one, two)).to.eql("YES");
+            expect(willLandOnSameLocation(one, two)).toEqual("YES");
         });
     });
 
@@ -68,7 +66,7 @@ describe('Kangaroo', () => {
                 x: 4,
                 v: 2
             };
-            expect(willLandOnSameLocation(one, two)).to.eql("YES");
+            expect(willLandOnSameLocation(one, two)).toEqual("YES");
         });
     });
 
@@ -85,7 +83,7 @@ describe('Kangaroo', () => {
                 x: 5,
                 v: 3
             };
-            expect(willLandOnSameLocation(one, two)).to.eql("NO");
+            expect(willLandOnSameLocation(one, two)).toEqual("NO");
         });
     });
 
@@ -102,7 +100,7 @@ describe('Kangaroo', () => {
                 x: 9814,
                 v: 5861
             };
-            expect(willLandOnSameLocation(one, two)).to.eql("NO");
+            expect(willLandOnSameLocation(one, two)).toEqual("NO");
         });
     });
 });
