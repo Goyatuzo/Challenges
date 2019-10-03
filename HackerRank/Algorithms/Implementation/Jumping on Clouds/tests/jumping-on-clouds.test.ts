@@ -1,6 +1,6 @@
 ﻿import { expect } from 'chai';
 
-import jumpingOnClouds from '../../../../../HackerRank/Algorithms/Implementation/Jumping on Clouds/jumping-on-clouds';
+import jumpingOnClouds from '../jumping-on-clouds';
 
 describe('JumpingOnClouds', () => {
     it('[0, 0, 1, 0, 0, 1, 0] should be 4', () => {

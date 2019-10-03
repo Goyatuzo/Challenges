@@ -1,6 +1,6 @@
 ﻿import { expect } from 'chai';
 
-import equalizeArray from '../../../../../HackerRank/Algorithms/Implementation/Equalize The Array/equalize-the-array';
+import equalizeArray from '../equalize-the-array';
 
 describe('EqualizeArray', () => {
     it('Sample Input', () => {

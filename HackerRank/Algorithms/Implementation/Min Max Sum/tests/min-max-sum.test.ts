@@ -1,6 +1,6 @@
 ﻿import { expect } from 'chai';
 
-import minMaxSum from '../../../../../HackerRank/Algorithms/Implementation/Min Max Sum/min-max-sum';
+import minMaxSum from '../min-max-sum';
 
 describe('MinMaxSum', () => {
     it('Sample Input', () => {

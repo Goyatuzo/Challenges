@@ -1,6 +1,6 @@
 ﻿import { expect } from 'chai';
 
-import bonAppetit from '../../../../HackerRank/Algorithm/Implementation/bon-appetit';
+import bonAppetit from '../bon-appetit';
 
 describe('BonAppetit', () => {
     describe('Sample Input', () => {
