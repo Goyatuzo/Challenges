@@ -14,12 +14,18 @@ def counting_pretty_numbers_helper(num: int) -> int:
 
     # Count all 2, 3, and 9 below this number
     tens = int(num / 10)
-
+    
     return offset + tens * 3
 
 def counting_pretty_numbers(lo: int, hi: int) -> int:
     """https://www.codechef.com/problems/NUM239"""
-    return counting_pretty_numbers_helper(hi) - counting_pretty_numbers_helper(lo)
+    last_digit = lo % 10
+
+    if last_digit == 9 or last_digit == 3 or last_digit == 2:
+        return counting_pretty_numbers_helper(hi) - counting_pretty_numbers_helper(lo) + 1
+    else:
+        return counting_pretty_numbers_helper(hi) - counting_pretty_numbers_helper(lo)
+
 
 t = int(input())
 
