@@ -18,24 +18,26 @@ class Stack:
     def push(self, value):
         self.data.append(value)
 
-import sys
-test_cases = open("test.txt", 'r')
-# test_cases = open(sys.argv[1], 'r')
-for test in test_cases:
-    stack = Stack(test.strip())
 
-    count = 0
+if __name__ == '__main__':
+    import sys
+    test_cases = open("test.txt", 'r')
+    # test_cases = open(sys.argv[1], 'r')
+    for test in test_cases:
+        stack = Stack(test.strip())
 
-    top = stack.pop()
-
-    while top != None:
-        if count % 2 == 0:
-            print top,
+        count = 0
 
         top = stack.pop()
-        count += 1
 
-    print ""
+        while top != None:
+            if count % 2 == 0:
+                print(top, end='')
+
+            top = stack.pop()
+            count += 1
+
+        print("")
 
 
-test_cases.close()
+    test_cases.close()
