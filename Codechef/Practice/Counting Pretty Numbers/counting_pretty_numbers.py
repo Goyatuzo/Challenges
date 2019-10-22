@@ -1,5 +1,6 @@
 from typing import List
 
+
 def counting_pretty_numbers_helper(num: int) -> int:
     last_digit = num % 10
 
@@ -14,8 +15,9 @@ def counting_pretty_numbers_helper(num: int) -> int:
 
     # Count all 2, 3, and 9 below this number
     tens = int(num / 10)
-    
+
     return offset + tens * 3
+
 
 def counting_pretty_numbers(lo: int, hi: int) -> int:
     """https://www.codechef.com/problems/NUM239"""
@@ -27,11 +29,12 @@ def counting_pretty_numbers(lo: int, hi: int) -> int:
         return counting_pretty_numbers_helper(hi) - counting_pretty_numbers_helper(lo)
 
 
-t = int(input())
+if __name__ == '__main__':
+    t = int(input())
 
-while t > 0:
-    l, r = [int(i) for i in input().split()]
+    while t > 0:
+        l, r = [int(i) for i in input().split()]
 
-    print(counting_pretty_numbers(l, r))
+        print(counting_pretty_numbers(l, r))
 
-    t -= 1
+        t -= 1
