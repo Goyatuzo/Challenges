@@ -15,6 +15,6 @@ def run_solution():
         a = map(int,raw_input().strip().split(' '))
 
         if should_cancel(n, k, a):
-            print "YES"
+            print("YES")
         else:
-            print "NO"
+            print("NO")

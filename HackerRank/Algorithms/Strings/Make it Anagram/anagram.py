@@ -49,10 +49,10 @@ def chars_to_delete(a, b):
         a_rem = 0
         b_rem = 0
 
-    print a
-    print b
-    print len(a), len(b)
-    print a_idx, b_idx
-    print a_rem, b_rem
+    print(a)
+    print(b)
+    print(len(a), len(b))
+    print(a_idx, b_idx)
+    print(a_rem, b_rem)
 
     return count + abs(a_rem + b_rem)

@@ -13,7 +13,7 @@ def insertion_sort(lst):
     del lst[-1]
     lst.append(lst[-1])
 
-    print " ".join(map(str, lst))
+    print(" ".join(map(str, lst)))
 
     for i in xrange(n - 2, -1, -1):
         # If it's at the beginning of the list, just insert it.
@@ -31,6 +31,6 @@ def insertion_sort(lst):
             lst.insert(i, lst[i - 1])
             del lst[i + 1]
 
-        print " ".join(map(str, lst))
+        print(" ".join(map(str, lst)))
 
     return " ".join(map(str, lst))
