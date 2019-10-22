@@ -1,6 +1,6 @@
 import unittest
 
-from 2_even_fibonacci import *
+from b_even_fibonacci import *
 
 class TestTwo(unittest.TestCase):
     def test_fib_first_ten(self):
