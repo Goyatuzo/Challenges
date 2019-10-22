@@ -2,7 +2,7 @@ def fib(n):
     fibonacci = [0, 1]
 
     # Iterate from 2 to n. It will nver reach n though because curr outgrows n.
-    for i in xrange(2, n):
+    for i in range(2, n):
         # Find the next term in the sequence and append to list.
         curr = fibonacci[i - 1] + fibonacci[i - 2]
 

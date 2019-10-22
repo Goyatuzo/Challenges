@@ -9,7 +9,7 @@ def should_cancel(students, threshold, arrivals):
 def run_solution():
     t = int(raw_input().strip())
 
-    for a0 in xrange(t):
+    for a0 in range(t):
         n,k = raw_input().strip().split(' ')
         n,k = [int(n),int(k)]
         a = map(int,raw_input().strip().split(' '))

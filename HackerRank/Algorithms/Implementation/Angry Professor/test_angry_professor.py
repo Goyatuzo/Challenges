@@ -12,11 +12,11 @@ class TestAngryProfessor(unittest.TestCase):
         # Classes should be in session until the threshold reaches 7. 6 should be ok
         # because there are exactly 6 students who make the class.
 
-        for i in xrange(0, 4):
+        for i in range(0, 4):
             result = should_cancel(class_size, i, the_class)
             self.assertFalse(result)
 
-        for i in xrange(4, class_size):
+        for i in range(4, class_size):
             result = should_cancel(class_size, i, the_class)
             self.assertTrue(result)
 

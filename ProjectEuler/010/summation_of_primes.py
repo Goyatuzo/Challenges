@@ -2,7 +2,7 @@ def get_primes(n):
     sieve = {}
     primes = []
 
-    for i in xrange(2, n+1):
+    for i in range(2, n+1):
         if i not in sieve:
             sieve[i] = True
             primes.append(i)

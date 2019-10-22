@@ -8,7 +8,7 @@ def is_palindrome(value):
     # The index of the last digit of the number.
     last_idx = len(value) - 1
 
-    return all([value[i] == value[last_idx - i] for i in xrange(0, n)])
+    return all([value[i] == value[last_idx - i] for i in range(0, n)])
 
 def largest_palindrome(limit):
     """Since the number's square root is technically the largest value
@@ -20,8 +20,8 @@ def largest_palindrome(limit):
 
     max_palindrome = 0
 
-    for i in xrange(100, 1000):
-        for j in xrange(1, 1000):
+    for i in range(100, 1000):
+        for j in range(1, 1000):
 
             # The current value to be evaluated.
             value = i * j

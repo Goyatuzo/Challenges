@@ -15,7 +15,7 @@ def insertion_sort(lst):
 
     print(" ".join(map(str, lst)))
 
-    for i in xrange(n - 2, -1, -1):
+    for i in range(n - 2, -1, -1):
         # If it's at the beginning of the list, just insert it.
         if i <= 0:
             lst.insert(0, to_insert)

@@ -5,7 +5,7 @@ def after_n_cycles(n):
 
     height = 1
 
-    for i in xrange(1, n + 1):
+    for i in range(1, n + 1):
         # If n is odd, it's the first growth so double the height
         if i % 2 == 1:
             height *= 2

@@ -1,7 +1,7 @@
 def fizz_buzz(fizz, buzz, highest):
     result = []
 
-    for i in xrange(1, highest + 1):
+    for i in range(1, highest + 1):
         letter = ''
 
         # If divisible by fizz or buzz, add F or B appropriately.
